@@ -1,8 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Alfa+Slab+One");
 *{
     margin:0;
     padding:0;
+    box-sizing: border-box;
 }
 
 body {
-    background-color: brown;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.4;
+    color: #777;
+    padding: 30px;
 }
+
+.header {    
+    height: 95vh;
+    position: relative;
+    
+}
+
+.text-box{
+    position: absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    text-transform: uppercase;
+    background: url("/portofolio2021/img/abstract.gif");
+    font-family: Alfa Slab One;
+    /* color: black; */
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+
+}
+
+.heading-primary-main {
+        display:block;
+        font-size: 100px;
+        font-weight: 400;
+        letter-spacing: 3.5px; 
+        white-space: pre       
+}
+    
+.heading-primary-sub{    
+        display:block;
+        font-size: 40px;
+        font-weight: 400;
+        letter-spacing: 14.5px;
+        white-space: pre
+}
+
